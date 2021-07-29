@@ -1,0 +1,19 @@
+{
+  "name": "hello-dokcer",
+  "version": "1.0.0",
+  "description": "Learn and deploy Node.js on Docker",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "request": "^2.88.2"
+  },
+  "keywords": [
+    "Node",
+    "Docker"
+  ],
+  "author": "Rakib Hasan",
+  "license": "ISC"
+}

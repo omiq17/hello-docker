@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  testapp:
+    image: hello-docker:latest
+    ports:
+      - "8080"
+    deploy:
+      mode: replicated
+      replicas: 2
+    restart: unless-stopped
+   
